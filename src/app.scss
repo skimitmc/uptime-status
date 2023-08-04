@@ -1,4 +1,4 @@
-$primary-color: #3bd672;
+$primary-color: #4cd97d;
 
 * {
   margin: 0;
@@ -9,7 +9,8 @@ body {
   font-family: sans-serif;
   font-size: 14px;
   line-height: 1;
-  color: #131a26;
+  color: #e8e6e3;
+  background-color:#181a1b;
 }
 
 a {
@@ -54,15 +55,15 @@ a {
 }
 
 #uptime {
-  background-color: #ffffff;
+  background-color: #1a212c;
   border-radius: 10px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 10px 30px rgba(255, 255, 255, 0.1);
   margin-top: -30px;
   margin-bottom: 40px;
   padding: 15px 0;
   overflow: hidden;
   .site {
-    border-bottom: 1px solid #e6e7e8;
+    border-bottom: 1px solid #181a1b;
     margin: 0 30px;
     padding: 25px 0;
     .loading {
@@ -131,7 +132,7 @@ a {
           background-color: #de484a;
         }
         &.none {
-          background-color: #e5e8eb;
+          background-color: #9a9184;
         }
         &:hover {
           opacity: 0.6;

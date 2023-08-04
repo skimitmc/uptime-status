@@ -1,15 +1,15 @@
 window.Config = {
 
   // 显示标题
-  SiteName: 'Public Status',
+  SiteTitle: 'skimit status',
+
+  // 副标题
+  SiteSubTitle: 'Data tested from US, may not be accurate',
 
   // UptimeRobot Api Keys
   // 支持 Monitor-Specific 和 Read-Only
   ApiKeys: [
-    'm784488775-dd1ad84b209c05f8e185c33e',
-    'm784490063-7b5da437e7f1e0d67613714d',
-    'm784497419-de55aa09902ccb3ab22d548a',
-    'm784496436-71a4bf7b1e3bdf7756be131b',
+    'ur1166553-f7b1a410dad36253ed0fb642',
   ],
 
   // 日志天数
@@ -22,15 +22,11 @@ window.Config = {
   Navi: [
     {
       text: 'Homepage',
-      url: 'https://status.org.cn/'
+      url: 'https://skimit.net/'
     },
     {
       text: 'GitHub',
-      url: 'https://github.com/yb/uptime-status'
-    },
-    {
-      text: 'Blog',
-      url: 'https://abo.xyz/'
+      url: 'https://github.com/skimitmc/uptime-status'
     },
   ],
 };
